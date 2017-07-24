@@ -1,0 +1,33 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.login-container .logo {
+  position: absolute;
+  top: -88px;
+  left: 135px;
+  width: 128px;
+  height: 128px;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 128px;
+  color: #ffffff;
+  background-color: #ed6c44;
+  border-radius: 64px;
+  opacity: .95;
+  z-index: 10;
+}
+
+.login-form {
+  max-width: 400px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}

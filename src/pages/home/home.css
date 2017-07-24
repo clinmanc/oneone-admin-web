@@ -1,0 +1,22 @@
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px 28px 16px 0;
+  float: left;
+  text-align: center;
+  line-height: 31px;
+  font-size: 28px;
+  font-style: italic;
+  color: #ffffff;
+}
