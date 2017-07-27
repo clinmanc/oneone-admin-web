@@ -56,12 +56,7 @@ class UserInfo extends Component {
                         </td>
                         <td rowSpan={4} width={32}/>
                         <td colSpan={5}>
-                            <h2>卖火材的大灰狼<sup style={{
-                                padding: '0 4px',
-                                backgroundColor: '#ffa726',
-                                color: '#eee',
-                                borderRadius: '4px'
-                            }}>VIP1</sup></h2>
+                            <h2>卖火材的大灰狼<sup><Tag color="#ffa726">VIP1</Tag></sup></h2>
                         </td>
                     </tr>
                     <tr>

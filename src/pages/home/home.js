@@ -7,6 +7,7 @@ import OrderList from "../order/list/order-list";
 import RightsOrderList from "../order/rights/rights-order-list";
 import GoodsList from "../goods/list/goods-list";
 import UserInfo from "../user/info/user-info";
+import GoodsPublishing from "../goods/publishing/goods-publishing";
 const { SubMenu } = Menu;
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -81,6 +82,7 @@ const Home = () => {
               <Route path="/goods-list" component={GoodsList}/>
               <Route path="/user-list" component={GoodsList}/>
               <Route path="/user-info" component={UserInfo}/>
+              <Route path="/goods-publishing" component={GoodsPublishing}/>
             </Content>
             <Footer style={{ textAlign: 'center' }}>
               Oneone web admin ©2017 Created by KOMA

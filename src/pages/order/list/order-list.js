@@ -153,10 +153,14 @@ class OrderListForm extends Component {
                     >
                       {getFieldDecorator('queryType')(
                         <InputGroup compact>
-                          <Select defaultValue="ORDER_NUMBER" style={{ width: 80 }}>
-                            <Option value="ORDER_NUMBER">订单号</Option>
-                          </Select>
-                          <Input style={{ width: 153, textAlign: 'center' }} />
+                          <Col span={8}>
+                            <Select defaultValue="ORDER_NUMBER">
+                              <Option value="ORDER_NUMBER">订单号</Option>
+                            </Select>
+                          </Col>
+                          <Col span={16}>
+                            <Input style={{ textAlign: 'center' }} />
+                          </Col>
                         </InputGroup>
                       )}
                     </FormItem>
