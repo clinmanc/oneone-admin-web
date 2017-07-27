@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './home.css';
 import { Layout, Menu, Breadcrumb, Icon, Avatar, Dropdown } from 'antd';
-import { BrowserRouter as Router, Link, Route, withRouter } from "react-router-dom";
+import { HashRouter as Router, Link, Route, withRouter } from "react-router-dom";
 import auth from "../../auth";
 import OrderList from "../order/list/order-list";
 import RightsOrderList from "../order/rights/rights-order-list";
 import GoodsList from "../goods/list/goods-list";
+import UserInfo from "../user/info/user-info";
 const { SubMenu } = Menu;
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -79,6 +80,7 @@ const Home = () => {
               <Route path="/rights-order-list" component={RightsOrderList}/>
               <Route path="/goods-list" component={GoodsList}/>
               <Route path="/user-list" component={GoodsList}/>
+              <Route path="/user-info" component={UserInfo}/>
             </Content>
             <Footer style={{ textAlign: 'center' }}>
               Oneone web admin ©2017 Created by KOMA
